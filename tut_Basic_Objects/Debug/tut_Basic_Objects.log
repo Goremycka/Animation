@@ -1,0 +1,57 @@
+﻿  main.cpp
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(18,29): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(23,37): warning C4305: аргумент: усечение из "double" в "GLclampf"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(46,46): warning C4244: аргумент: преобразование "GLdouble" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(46,28): warning C4244: аргумент: преобразование "GLdouble" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(61,37): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(69,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(153,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(185,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(245,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(254,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(269,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(278,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(293,30): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(310,30): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(375,29): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(385,29): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(395,29): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(405,33): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(415,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(425,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(435,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(445,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(465,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(475,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(489,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(500,30): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(525,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(557,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(578,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(590,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(643,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(649,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(656,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(811,29): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(821,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(830,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(839,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(847,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(856,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(865,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(873,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(882,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(891,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(900,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(909,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(918,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(927,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(936,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(944,31): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1022,25): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1029,17): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1030,13): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1031,13): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1032,13): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\tut_Basic_Objects\main.cpp(1033,13): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+  tut_Basic_Objects.vcxproj -> C:\Users\HP\Desktop\VS_OpenGL_kolesnicov\OpenGL_tutorial\Debug\tut_Basic_Objects.exe
