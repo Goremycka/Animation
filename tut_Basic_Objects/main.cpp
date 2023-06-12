@@ -2,10 +2,6 @@
 #include <array>
 #include <cmath>
 #include <stdlib.h>
-#include <time.h>
-#include<windows.h>
-#include<math.h>
-#include<stdio.h>
 #define PI 3.1416
 struct Point {
 	float x, y;
@@ -26,13 +22,11 @@ void init(void)
 }
 
 
-
-///*** ћќƒ≈Ћ№ » ***///
-
+//All_Model
 
 
 
-///*** круг***///
+//Circle_Model
 void circle(GLdouble rad)
 {
     GLint points = 50;
@@ -48,7 +42,7 @@ void circle(GLdouble rad)
     }
     glEnd();
 }
-/// *** моделька солнца **///
+//-Sun_Model
 void Sun_Model() {
     glPushMatrix();
     glTranslatef(500, 0, 0);
@@ -63,26 +57,26 @@ void Moving_Sun_Model() {
     glPopMatrix();
 
 }
-///*** моделька облака ***///
+//Cloud_Model
 void cloud_model_one() {
 
     glColor3f(1.25, 0.924, 0.930);
 
-    ///верхний левый
+    //Top_Left
 
     glPushMatrix();
     glTranslatef(320, 210, 0);
     circle(15);
     glPopMatrix();
 
-    ///верх
+    //Top
 
     glPushMatrix();
     glTranslatef(340, 225, 0);
     circle(16);
     glPopMatrix();
 
-    ///право
+    //Right
 
     glPushMatrix();
     glTranslatef(360, 210, 0);
@@ -90,7 +84,7 @@ void cloud_model_one() {
     glPopMatrix();
 
 
-    ///посередине
+    //middle_Fill
     glPushMatrix();
     glTranslatef(355, 210, 0);
     circle(16);
@@ -146,32 +140,33 @@ void cloud_model_one() {
     circle(10);
     glPopMatrix();
 
+    //Fill End
 
 }
 
 void cloud_model_Two() {
     glColor3f(1.25, 0.924, 0.930);
 
-    ///лева€ часть
+    //Left_Part
     glPushMatrix();
     glTranslatef(305, 205, 0);
     circle(10);
     glPopMatrix();
 
-    ///верх
+    //Top
 
     glPushMatrix();
     glTranslatef(320, 210, 0);
     circle(15);
     glPopMatrix();
 
-    ///права€ часть
+    //Right_Part
     glPushMatrix();
     glTranslatef(334, 207, 0);
     circle(10);
     glPopMatrix();
 
-    ///нижн€€ часть
+    //Bottom_Part
     glPushMatrix();
     glTranslatef(320, 207, 0);
     circle(10);
@@ -184,50 +179,50 @@ void cloud_model_Two() {
 void cloud_model_Three() {
     glColor3f(1.25, 0.924, 0.930);
 
-    ///лева€ часть
+    //Left_Part
     glPushMatrix();
     glTranslatef(300, 200, 0);
     circle(15);
     glPopMatrix();
 
-    ///слева сверху
+    //Top_Left
 
     glPushMatrix();
     glTranslatef(320, 210, 0);
     circle(15);
     glPopMatrix();
 
-    ///верх
+    //Top
     glPushMatrix();
     glTranslatef(340, 220, 0);
     circle(16);
     glPopMatrix();
 
-    ///справа сверху
+    //Top_Right
     glPushMatrix();
     glTranslatef(360, 210, 0);
     circle(15);
     glPopMatrix();
 
-    ///права€ часть
+    //Right_Part
     glPushMatrix();
     glTranslatef(380, 200, 0);
     circle(15);
     glPopMatrix();
 
-    ///нижний правый
+    //Bottom_Right
     glPushMatrix();
     glTranslatef(360, 190, 0);
     circle(20);
     glPopMatrix();
 
-    ///нижний левый
+    //Bottom_Left
     glPushMatrix();
     glTranslatef(320, 190, 0);
     circle(20);
     glPopMatrix();
 
-    ///низ
+    //Bottom
     glPushMatrix();
     glTranslatef(340, 190, 0);
     circle(20);
@@ -236,11 +231,13 @@ void cloud_model_Three() {
 
 
 
+    //Fill End
+
 }
-///*** модель холма***///
+//Hill_Model
 void hill_big() {
 
-    ///холм
+    //Hill
     glBegin(GL_POLYGON);
     glColor3f(0.38, 0.41, 0.36);
     glVertex2i(70, 70);
@@ -249,7 +246,7 @@ void hill_big() {
 
     glEnd();
 
-    ///снег на холме
+    //Hill_Snow
     glBegin(GL_POLYGON);
     glColor3f(1.25, 0.924, 0.930);
 
@@ -264,7 +261,7 @@ void hill_big() {
 
 }
 void hill_small() {
-    ///маленький холм
+    //Hill_Small
     glBegin(GL_POLYGON);
     glColor3f(0.11, 0.23, 0.36);
     glVertex2i(250, 100);
@@ -273,7 +270,7 @@ void hill_small() {
 
     glEnd();
 
-    ///снег на маленьком 
+    //Hill_Small_Snow
     glBegin(GL_POLYGON);
     glColor3f(1.25, 0.924, 0.930);
     glVertex2i(290, 150);
@@ -286,9 +283,9 @@ void hill_small() {
 
     glEnd();
 }
-
+//Tilla_Model
 void Tilla_One_Model() {
-    
+    //Tilla
     glBegin(GL_POLYGON);
     glColor3f(0.1, 1.293, 0.0);
     glVertex2i(125, 70);
@@ -308,7 +305,7 @@ void Tilla_One_Model() {
 void Tilla_Two_Model() {
 
     glColor3f(0.1, 1.293, 0.0);
-    /// лева€ часть
+    //Left_Part
     glPushMatrix();
     glTranslatef(430, 90, 0);
     circle(30);
@@ -334,7 +331,7 @@ void Tilla_Two_Model() {
     circle(30);
     glPopMatrix();
 
-    ///права€ часть
+    //Right_Part
     glPushMatrix();
     glTranslatef(445, 80, 0);
     circle(30);
@@ -368,9 +365,9 @@ void Tilla_Two_Model() {
 
 
 }
-///*** модель дома ***///
+//House_Model
 void house() {
-    ///крыша
+    //House_Roof
     glBegin(GL_POLYGON);
     glColor3f(.990, 0.0, 0.0);
     glVertex2i(285, 105);
@@ -380,7 +377,7 @@ void house() {
 
     glEnd();
 
-    ///тень от крыши
+    //House_Roof_Shadow
     glBegin(GL_POLYGON);
     glColor3f(.890, 0.0, 0.0);
     glVertex2i(285, 105);
@@ -390,7 +387,7 @@ void house() {
 
     glEnd();
 
-    ///ограждение
+    //House_Fence
     glBegin(GL_POLYGON);
     glColor3f(.555, 1.0, 1.0);
     glVertex2i(290, 70);
@@ -400,7 +397,7 @@ void house() {
 
     glEnd();
 
-    ///тень ограждени€
+    //House_Fence_Shadow
     glBegin(GL_POLYGON);
     glColor3f(.555, 0.924, 0.930);
     glVertex2i(310, 70);
@@ -410,7 +407,7 @@ void house() {
 
     glEnd();
 
-    ///дверь дома
+    //House_Door
     glBegin(GL_POLYGON);
     glColor3f(0.38, 0.41, 0.36);
     glVertex2i(330, 70);
@@ -420,7 +417,7 @@ void house() {
 
     glEnd();
 
-    ///окно 1
+    //House_Window1
     glBegin(GL_POLYGON);
     glColor3f(0.38, 0.21, 0.26);
     glVertex2i(295, 75);
@@ -430,7 +427,7 @@ void house() {
 
     glEnd();
 
-    ///окно 2
+    //House_Window2
     glBegin(GL_POLYGON);
     glColor3f(0.38, 0.21, 0.26);
     glVertex2i(312, 75);
@@ -440,7 +437,7 @@ void house() {
 
     glEnd();
 
-    ///окно 3
+    //House_Window3
     glBegin(GL_POLYGON);
     glColor3f(0.38, 0.21, 0.26);
     glVertex2i(355, 75);
@@ -450,7 +447,7 @@ void house() {
 
     glEnd();
 
-    ///маленька€ крыша
+    //House_Small_Roof
     glBegin(GL_POLYGON);
     glColor3f(1.0, 0.0, 0.0);
     glVertex2i(250, 90);
@@ -460,7 +457,7 @@ void house() {
 
     glEnd();
 
-    ///мал ограда
+    //House_Small_Fence
     glBegin(GL_POLYGON);
     glColor3f(.555, .724, .930);
     glVertex2i(255, 70);
@@ -470,7 +467,7 @@ void house() {
 
     glEnd();
 
-    ///мал дверь
+    //House_Small_Door
     glBegin(GL_POLYGON);
     glColor3f(0.11, 0.23, 0.36);
     glVertex2i(260, 70);
@@ -482,9 +479,9 @@ void house() {
 
 
 }
-///*** модель пол€ ***///
+//Field_Model 
 void field() {
-    ///поле
+    //Field
     glBegin(GL_POLYGON);
     glColor3f(0.533, 1.293, 0.0);
     glVertex2i(0, 50);
@@ -495,7 +492,7 @@ void field() {
     glEnd();
 
 
-    ///тень
+    //Field_Shadow
     glBegin(GL_POLYGON);
     glColor3f(0.1, 1.293, 0.0);
     glVertex2i(0, 0);
@@ -507,7 +504,7 @@ void field() {
 
 
 }
-///*** модели деревьев ***///
+//Tree_Model 
 void Tree_Model_One() {
 
 
@@ -584,7 +581,7 @@ void Tree_Model_Three() {
     glEnd();
 }
 
-/// *** ветр€к ***///
+//Windmill_Stand_Model
 void Windmill_Stand_Model() {
 
     glColor3f(0.38, 0.41, 0.36);
@@ -596,11 +593,11 @@ void Windmill_Stand_Model() {
     glEnd();
 }
 
-///*** модель лопастей ***///
+//Windmill_Blades_Model
 
 void Windmill_Blade() {
 
-    ///лопасть 1
+    ///Blade_One
     glPushMatrix();
     glRotatef(spin, 0, 0, 90);
     glBegin(GL_POLYGON);
@@ -611,7 +608,7 @@ void Windmill_Blade() {
     glEnd();
     glPopMatrix();
 
-    ///лопасть 2
+    ///Blade_Two
     glPushMatrix();
     glRotatef(spin, 0, 0, 90);
     glBegin(GL_POLYGON);
@@ -622,7 +619,7 @@ void Windmill_Blade() {
     glEnd();
     glPopMatrix();
 
-    ///лопасть 3
+    ///Blade_Three
     glPushMatrix();
     glRotatef(spin, 0, 0, 90);
     glBegin(GL_POLYGON);
@@ -634,7 +631,7 @@ void Windmill_Blade() {
     glPopMatrix();
 
 }
-///*** финальна€ модель***///
+//Windmill_Final_Model 
 void Windmill() {
 
 
@@ -665,20 +662,21 @@ void Windmill() {
 }
 
 
-///Model_End
+//Model_End
 
 
 
-///***   Object  ***///
+//Object
+//
 
-///*** Sun ***///
+//Sun
 void Sun() {
     glColor3f(1, 1, 0);
     glPushMatrix();
     Moving_Sun_Model();
     glPopMatrix();
 }
-///*** Cloud_One_Model_One ***///
+//Cloud_One_Model_One 
 void cloud_one() {
     glPushMatrix();
     glTranslatef(cx, -40, 0);
@@ -687,7 +685,7 @@ void cloud_one() {
 
 }
 
-///*** Cloud_Two_Model_one ***///
+//Cloud_Two_Model_one
 
 void cloud_two() {
     glPushMatrix();
@@ -697,7 +695,7 @@ void cloud_two() {
 
 }
 
-///*** Cloud_Three_Model_Two ***///
+//Cloud_Three_Model_Two
 
 void cloud_three() {
     glPushMatrix();
@@ -706,7 +704,7 @@ void cloud_three() {
     glPopMatrix();
 
 }
-///*** Cloud_Four_Model_Two ***///
+//Cloud_Four_Model_Two
 
 void cloud_four() {
     glPushMatrix();
@@ -715,7 +713,7 @@ void cloud_four() {
     glPopMatrix();
 
 }
-///*** Cloud_Five_Model_Three ***///
+//Cloud_Five_Model_Three
 void cloud_five() {
 
     glPushMatrix();
@@ -723,7 +721,7 @@ void cloud_five() {
     cloud_model_Three();
     glPopMatrix();
 }
-///*** Cloud_Six_Model_Three ***///
+//Cloud_Six_Model_Three
 void cloud_six() {
 
     glPushMatrix();
@@ -732,42 +730,42 @@ void cloud_six() {
     glPopMatrix();
 }
 
-///*** House_One ***///
+//House_One
 void house_one() {
     glPushMatrix();
     glTranslatef(0, 0, 0);
     house();
     glPopMatrix();
 }
-///*** House_Two ***///
+//House_Two
 void house_two() {
     glPushMatrix();
     glTranslatef(450, 0, 0);
     house();
     glPopMatrix();
 }
-///*** House_Two ***///
+//House_Two
 void house_three() {
     glPushMatrix();
     glTranslatef(320, 37, 0);
     house();
     glPopMatrix();
 }
-///*** Hill_big_One ***///
+//Hill_big_One
 void Hill_Big_One() {
     glPushMatrix();
     glTranslatef(0, 0, 0);
     hill_big();
     glPopMatrix();
 }
-///*** Hill_big_Two ***///
+//Hill_big_Two
 void Hill_Big_Two() {
     glPushMatrix();
     glTranslatef(550, -20, 0);
     hill_big();
     glPopMatrix();
 }
-///*** Hill_Small_One ***///
+//Hill_Small_One
 void Hill_Small_One() {
     glPushMatrix();
     glTranslatef(0, 0, 0);
@@ -775,7 +773,7 @@ void Hill_Small_One() {
     glPopMatrix();
 
 }
-/// *** Tilla_One_Model_One ***///
+//Tilla_One_Model_One
 
 void Tilla_One() {
 
@@ -785,7 +783,7 @@ void Tilla_One() {
     glPopMatrix();
 
 }
-/// *** Tilla_Two_Model_Two ***///
+//Tilla_Two_Model_Two
 void Tilla_Two() {
 
     glPushMatrix();
@@ -795,7 +793,7 @@ void Tilla_Two() {
 
 
 }
-/// *** Tilla_Three_Model_Two ***///
+//Tilla_Three_Model_Two
 void Tilla_Three() {
 
     glPushMatrix();
@@ -805,10 +803,10 @@ void Tilla_Three() {
 
 
 }
-/// *** Tilla_Four_Model_One ***///
+//Tilla_Four_Model_One
 void Tilla_Four() {
 
-    glColor3f(0.833, 1., 0.0);
+    glColor3f(0.833, 0.0, 0.0);
     glPushMatrix();
     glTranslatef(380, 0, 0);
     Tilla_One_Model();
@@ -816,7 +814,7 @@ void Tilla_Four() {
 
 
 }
-///*** Tree_1 ***///
+//Tree_1
 void Tree_One() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -825,7 +823,7 @@ void Tree_One() {
     glPopMatrix();
 }
 
-///*** Tree_2 ***///
+//Tree_2
 void Tree_Two() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -834,7 +832,7 @@ void Tree_Two() {
     glPopMatrix();
 }
 
-///*** Tree_3 ***///
+//Tree_3
 void Tree_Three() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -842,7 +840,7 @@ void Tree_Three() {
     Tree_Model_One();
     glPopMatrix();
 }
-///*** Tree_4 ***///
+//Tree_4
 void Tree_Four() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -851,7 +849,7 @@ void Tree_Four() {
     glPopMatrix();
 }
 
-///*** Tree_5 ***///
+//Tree_5
 void Tree_Five() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -860,7 +858,7 @@ void Tree_Five() {
     glPopMatrix();
 }
 
-///*** Tree_6 ***///
+//Tree_6
 void Tree_Six() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -868,7 +866,7 @@ void Tree_Six() {
     Tree_Model_Two();
     glPopMatrix();
 }
-///*** Tree_7 ***///
+//Tree_7
 void Tree_Seven() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -877,7 +875,7 @@ void Tree_Seven() {
     glPopMatrix();
 }
 
-///*** Tree_8 ***///
+//Tree_8
 void Tree_Eight() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -886,7 +884,7 @@ void Tree_Eight() {
     glPopMatrix();
 }
 
-///*** Tree_9 ***///
+//Tree_9
 void Tree_Nine() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -895,7 +893,7 @@ void Tree_Nine() {
     glPopMatrix();
 }
 
-///*** Tree_10 ***///
+//Tree_10
 void Tree_Ten() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -904,7 +902,7 @@ void Tree_Ten() {
     glPopMatrix();
 }
 
-///*** Tree_11 ***///
+//Tree_11
 void Tree_Eleven() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -913,7 +911,7 @@ void Tree_Eleven() {
     glPopMatrix();
 }
 
-///*** Tree_12 ***///
+//Tree_12 
 void Tree_Twelve() {
     glColor3f(0.533, 1.293, 0.0);
     glPushMatrix();
@@ -922,7 +920,7 @@ void Tree_Twelve() {
     glPopMatrix();
 }
 
-/// *** Windmill ***///
+//Windmill
 void Windmill_One() {
     glColor3f(0.11, 0.23, 0.36);
     glPushMatrix();
@@ -948,20 +946,18 @@ void Windmill_Three() {
     glPopMatrix();
 
 }
-///Object_End
-///=========================================================================================================///
+//Object_End
 
 
-///========================///
-///*** Display Function ***///
-///========================///
+
+//Display Function
 
 void display(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0, 0.0, 1.0);
 
-    ///*** Object_Layer ***///
+    //Object_Layer 
     Sun();
 
     Windmill_Three();
@@ -1013,10 +1009,10 @@ void display(void)
 
     glFlush();
 }
-///========================///
-///*** Speed & Movement ***///
-///========================///
-///*** Sun_Move ***///
+
+//Speed & Movement 
+
+// Sun_Move 
 void sun_move() {
 
     sun_spin = sun_spin + 0.0038;
